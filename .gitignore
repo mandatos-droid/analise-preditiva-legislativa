@@ -1,0 +1,25 @@
+﻿# dependências / builds
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# segredos
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# graphify (grafo versionável; cache local ignorado)
+graphify-out/cache/
+graphify-out/manifest.json
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
