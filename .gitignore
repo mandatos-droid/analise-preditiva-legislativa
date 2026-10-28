@@ -23,3 +23,5 @@ graphify-out/manifest.json
 .DS_Store
 Thumbs.db
 .vscode/
+.vercel
+.env*
